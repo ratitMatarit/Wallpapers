@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Wallpapers</string>
+
+    <!--display metrics-->
+    <string name="display_metrics_btn_proceed">Продолжить</string>
+    <string name="screen_metrics">%1d x %2d</string>
 </resources>

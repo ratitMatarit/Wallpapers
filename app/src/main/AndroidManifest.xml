@@ -4,6 +4,7 @@
     package="com.lidera.wallpapers">
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,10 +15,10 @@
         android:theme="@style/Theme.Wallpapers"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".screens.DisplayMetricActivity"
+            android:name=".screens.DisplayMetrics.DisplayMetricActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
